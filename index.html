@@ -6,7 +6,7 @@
   <title>Bosilu Jayasuriya — Builder · Engineer · Leader · Athlete</title>
   <meta
     name="description"
-    content="Portfolio of Bosilu Jayasuriya — Computer Science undergraduate at IIT (University of Westminster), health-tech & ML builder, campus tech leader, and national-level athlete."
+    content="Portfolio of Bosilu Jayasuriya — Computer Science undergraduate at IIT (University of Westminster), health-tech & AI-assisted builder, campus tech leader, and national-level athlete."
   />
 
   <!-- Google Fonts: Anton (Display) & Onest (Sans) -->
@@ -465,7 +465,7 @@
       transform: translateY(0);
     }
 
-    /* Portrait column — tuned for high-res tightly framed cutout, zero hover effects */
+    /* Portrait column — crisp cutout, zero hover effects */
     .hero-portrait-wrap {
       position: absolute;
       bottom: 0;
@@ -504,7 +504,6 @@
       pointer-events: none;
     }
 
-    /* Bottom gradient melt */
     .hero-gradient {
       position: absolute;
       inset-inline: 0;
@@ -515,7 +514,6 @@
       background: linear-gradient(to bottom, transparent, #08080a);
     }
 
-    /* Giant layered name behind portrait */
     .hero-name {
       position: absolute;
       inset-inline: 0;
@@ -1030,11 +1028,17 @@
       color: var(--muted);
     }
 
+    .project-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.5rem;
+      margin-top: 0.75rem;
+    }
+
     .project-repo-link {
       display: inline-flex;
       align-items: center;
       gap: 0.35rem;
-      margin-top: 0.75rem;
       font-size: 0.8125rem;
       text-transform: uppercase;
       letter-spacing: 0.18em;
@@ -1560,7 +1564,7 @@
         </p>
 
         <p class="hero-desc">
-          Second-year Computer Science undergraduate at IIT (University of Westminster) building health-tech, forecasting, and full-stack software with real-world impact.
+          Second-year Computer Science undergraduate at IIT (University of Westminster) building health-tech, forecasting, and web software with real-world impact.
         </p>
       </div>
 
@@ -1643,9 +1647,9 @@
             <li class="reveal-block" data-reveal data-delay="180">
               <span class="principle-num">03</span>
               <div>
-                <h3 class="principle-title">Ship end-to-end systems</h3>
+                <h3 class="principle-title">Orchestrate AI &amp; ship fast</h3>
                 <p class="principle-body">
-                  Startup REST API experience paired with TypeScript, Python ML pipelines, Supabase backends, and GitHub Actions — taking products from problem brief to reproducible deployment.
+                  Pairing a core foundation in Python, Java, HTML, CSS, JavaScript, and JSON — plus startup REST API exposure — with AI agents and LLMs to take complex products from problem brief to working software.
                 </p>
               </div>
             </li>
@@ -1676,17 +1680,17 @@
       </div>
 
       <ul class="projects-grid">
-        <!-- 01: Kova / FitnessFusion Hub -->
+        <!-- 01: Kova -->
         <li class="reveal-block reveal-block--card" data-reveal data-delay="0">
           <article class="group">
             <figure class="media-figure project-media">
               <div class="media-placeholder">
                 <div class="media-placeholder-top">
                   <span>01 / Web Application</span>
-                  <span class="media-placeholder-tag">107 Commits</span>
+                  <span class="media-placeholder-tag">AI-Built</span>
                 </div>
                 <p class="media-placeholder-title">Kova</p>
-                <p class="media-placeholder-sub">TypeScript · Vite · Supabase · Cloudflare</p>
+                <p class="media-placeholder-sub">Built with AI Agents &amp; LLMs · Fitness App</p>
               </div>
               <img
                 src="./project-kova.jpg"
@@ -1703,23 +1707,33 @@
               <div>
                 <h3 class="project-name">Kova</h3>
                 <p class="project-blurb">
-                  Personalized workout plan generating application engineered with a TypeScript and Vite frontend, Supabase backend architecture, and Cloudflare deployment pipeline.
+                  Personalized workout plan generating application built using AI agents and LLMs — turning structured training splits into adaptable daily sessions.
                 </p>
-                <a
-                  href="https://github.com/LokuBosilu/sync-my-split"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="project-repo-link"
-                >
-                  View Repository ↗
-                </a>
+                <div class="project-links">
+                  <a
+                    href="https://sync-my-split.lovable.app/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="project-repo-link"
+                  >
+                    View Live Site ↗
+                  </a>
+                  <a
+                    href="https://github.com/LokuBosilu/sync-my-split"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="project-repo-link"
+                  >
+                    View Repository ↗
+                  </a>
+                </div>
               </div>
               <div class="project-right">
                 <p class="project-year">2026</p>
-                <p class="project-outcome">TS · Supabase</p>
+                <p class="project-outcome">AI Agents · LLMs</p>
               </div>
             </div>
-            <p class="project-category">Fitness Tech · Full-Stack Web</p>
+            <p class="project-category">Fitness Tech · AI-Assisted Build</p>
           </article>
         </li>
 
@@ -1733,7 +1747,7 @@
                   <span class="media-placeholder-tag">Active Build</span>
                 </div>
                 <p class="media-placeholder-title">Kinfit</p>
-                <p class="media-placeholder-sub">On-Device Vision · Sinhala / Tamil / English</p>
+                <p class="media-placeholder-sub">AI Agents &amp; LLMs · Sinhala / Tamil / English</p>
               </div>
               <img
                 src="./project-kinfit.jpg"
@@ -1750,15 +1764,25 @@
               <div>
                 <h3 class="project-name">Kinfit (LongLife Mirror)</h3>
                 <p class="project-blurb">
-                  Low-cost, privacy-preserving smartphone system measuring exercise movement on-device — delivering live Sinhala, Tamil, and English voice corrections, safety stops, deterioration alerts, and trainer flag queues for gym members and osteoarthritis care.
+                  Low-cost, privacy-preserving smartphone exercise safety system currently being built with AI agents and LLMs — designed for on-device movement checks, Sinhala, Tamil, and English voice cues, and trainer flag queues for gym members and osteoarthritis care.
                 </p>
+                <div class="project-links">
+                  <a
+                    href="https://kinfit.lk"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="project-repo-link"
+                  >
+                    View Live Site ↗
+                  </a>
+                </div>
               </div>
               <div class="project-right">
                 <p class="project-year">2026</p>
-                <p class="project-outcome">Active Build</p>
+                <p class="project-outcome">Active · AI-Built</p>
               </div>
             </div>
-            <p class="project-category">Health-Tech · On-Device Computer Vision</p>
+            <p class="project-category">Health-Tech · AI-Assisted Build</p>
           </article>
         </li>
 
@@ -1772,7 +1796,7 @@
                   <span class="media-placeholder-tag">26 Units</span>
                 </div>
                 <p class="media-placeholder-title">Araksha</p>
-                <p class="media-placeholder-sub">GAM + LightGBM · DuckDB · GeoPandas · Streamlit</p>
+                <p class="media-placeholder-sub">Python · Built with AI Agents &amp; LLMs</p>
               </div>
               <img
                 src="./project-araksha.jpg"
@@ -1789,29 +1813,29 @@
               <div>
                 <h3 class="project-name">Araksha (Silent Node)</h3>
                 <p class="project-blurb">
-                  Weekly 4-week-ahead dengue risk forecasting tool for Sri Lanka's 25 districts and Kalmunai health zone. Combines ERA5/CHIRPS weather &amp; ONI/DMI climate lags with Negative-Binomial GAM + LightGBM ensembles and 2022–2026 rolling backtests.
+                  Weekly 4-week-ahead dengue risk forecasting tool for Sri Lanka's 25 districts and Kalmunai health zone — built with Python and AI-agent workflows around weather/climate lags and rolling backtests.
                 </p>
               </div>
               <div class="project-right">
                 <p class="project-year">2026</p>
-                <p class="project-outcome">Python · LightGBM</p>
+                <p class="project-outcome">Python · AI-Built</p>
               </div>
             </div>
-            <p class="project-category">Epidemiological Forecasting · Decision Support</p>
+            <p class="project-category">Epidemiological Forecasting · AI-Assisted Build</p>
           </article>
         </li>
 
-        <!-- 04: CitiSphere -->
+        <!-- 04: CitiSphere (Hand-Coded) -->
         <li class="reveal-block reveal-block--card" data-reveal data-delay="120">
           <article class="group">
             <figure class="media-figure project-media">
               <div class="media-placeholder">
                 <div class="media-placeholder-top">
                   <span>04 / Web Platform</span>
-                  <span class="media-placeholder-tag">UN SDG 11</span>
+                  <span class="media-placeholder-tag">Hand-Coded</span>
                 </div>
                 <p class="media-placeholder-title">CitiSphere</p>
-                <p class="media-placeholder-sub">HTML5 · CSS3 · JavaScript · W3C Validated</p>
+                <p class="media-placeholder-sub">Hand-Coded · HTML5 · CSS3 · JavaScript</p>
               </div>
               <img
                 src="./project-citisphere.jpg"
@@ -1828,23 +1852,25 @@
               <div>
                 <h3 class="project-name">CitiSphere</h3>
                 <p class="project-blurb">
-                  Multi-page awareness platform dedicated to UN Sustainable Development Goal 11 (Sustainable Cities &amp; Communities) for University of Westminster. Built the core template, global CSS, navigation, home, gallery, and W3C validation.
+                  Hand-coded multi-page awareness platform dedicated to UN Sustainable Development Goal 11 (Sustainable Cities &amp; Communities) for University of Westminster. Built the core template, global CSS, navigation, home, gallery, and W3C validation from scratch.
                 </p>
-                <a
-                  href="https://github.com/LokuBosilu/CitiSphere"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="project-repo-link"
-                >
-                  View Repository ↗
-                </a>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/LokuBosilu/CitiSphere"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="project-repo-link"
+                  >
+                    View Repository ↗
+                  </a>
+                </div>
               </div>
               <div class="project-right">
                 <p class="project-year">2025</p>
-                <p class="project-outcome">HTML5 · CSS3 · JS</p>
+                <p class="project-outcome">Hand-Coded</p>
               </div>
             </div>
-            <p class="project-category">Sustainability · Web Design &amp; Development</p>
+            <p class="project-category">UN SDG 11 · HTML5 · CSS3 · JavaScript</p>
           </article>
         </li>
       </ul>
@@ -1883,23 +1909,15 @@
       <div class="stack-strip reveal-block" data-reveal data-delay="120">
         <p class="eyebrow stack-label">Technical Arsenal</p>
         <ul class="stack-tags" aria-label="Technical skills">
-          <li class="stack-tag">Python</li>
-          <li class="stack-tag">TypeScript</li>
-          <li class="stack-tag">JavaScript</li>
           <li class="stack-tag">Java</li>
-          <li class="stack-tag">HTML5 / CSS3</li>
+          <li class="stack-tag">Python</li>
+          <li class="stack-tag">HTML5</li>
+          <li class="stack-tag">CSS3</li>
+          <li class="stack-tag">JavaScript</li>
+          <li class="stack-tag">JSON</li>
           <li class="stack-tag">REST APIs</li>
-          <li class="stack-tag">Vite</li>
-          <li class="stack-tag">Supabase</li>
-          <li class="stack-tag">Cloudflare</li>
-          <li class="stack-tag">LightGBM</li>
-          <li class="stack-tag">statsmodels</li>
-          <li class="stack-tag">scikit-learn</li>
-          <li class="stack-tag">pandas</li>
-          <li class="stack-tag">DuckDB</li>
-          <li class="stack-tag">GeoPandas</li>
-          <li class="stack-tag">Streamlit</li>
-          <li class="stack-tag">Git &amp; GitHub Actions</li>
+          <li class="stack-tag">Git</li>
+          <li class="stack-tag">AI Agents &amp; LLMs</li>
         </ul>
       </div>
     </section>
